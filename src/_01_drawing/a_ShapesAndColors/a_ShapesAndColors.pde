@@ -2,24 +2,24 @@
 // The grey square that appears has sides that are 100 pixels long
 
 // 2. Code a size command to make it big enough for your picture
-
+size(500,600);
 //    The size command looks like this:      
-  size (100,200);
+
 //    Try putting different numbers in the parentheses.
 //    See if you can figure out which number is the width, and which is the height
 
-
+fill(#EDFC4C);
 // 3. Now add an ellipse command to draw a circle. An ellipse is like an oval.
-
+ellipse(300,400,50,60);
 //    The ellipse command looks like this:      
  ellipse(250,250, 100,100);
 //    The first 2 numbers specify where to draw it. They are the x and y co-ordinates of the center of the ellipse.
 //    The third and fourth numbers are the size of the ellipse.
 //    The width is specified before the height. If they are the same, it draws a circle
 //    Change the numbers and re-run the program to see what happens.
-
+fill(#1709BC);
 // 4. Now add a rect command to draw a rectangle.
-
+rect(400,500,40,50);
 //    The rect command looks like this:       
 rect(250,250, 100,100);
 
