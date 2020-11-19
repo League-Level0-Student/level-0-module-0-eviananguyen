@@ -13,10 +13,10 @@ public class RobotSpiral {
 		
 		// Create a new Robot
 		Robot person = new Robot();
-		 Robot eviana = new Robot
+		 Robot eviana = new Robot();
 		// Set your robot's pen down 
 		person.penDown();
-        eviana.penDown();)
+        eviana.penDown();
 		// SPEED. Set the robot to go at max speed (100) 
 		person.setSpeed(50);
 		eviana.setSpeed(50);
@@ -29,20 +29,22 @@ while(count < 50) {
 	
 			// COLOR.   Have the robot set a random pen color:      setRandomPenColor()
 person.setRandomPenColor();
-eviana.setRandomColor();
+eviana.setRandomPenColor();
 			// DRAW.    Move the robot (5*count) pixels
 			//          count is the name of the variable you created earlier
 person.move(5  * count);
 eviana.move(5 *count );
 			// TURN.    Turn the robot (360/7) degrees to the right
 person.turn(360/7);
-eviana
+eviana.turn(360/7);
 			// COUNT.   Increase the count of how many lines have been drawn so far ( count+=1 )
 count += 1;
 			// Change the robot pen width to the current value of the count variable 
 person.setPenWidth(count);
 
 		//  End the while loop here
+}
+	}
 }
 		
 		// Run the program. 

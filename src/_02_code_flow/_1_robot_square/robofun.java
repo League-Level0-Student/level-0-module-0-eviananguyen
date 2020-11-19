@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	eviana.move(100);
 	eviana.setRandomPenColor();
 	eviana.turn(40);
-for(int i =)
+
 	
 	
 	
