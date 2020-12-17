@@ -40,13 +40,13 @@ int dragonAttack =0;
 	if(attack.equalsIgnoreCase("yell")) {
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
-			playerAttack = ran.nextInt(10);}
+			playerAttack = ran.nextInt(100);}
 		
 
 				// 5. If they typed in "kick":
 	if(attack.equalsIgnoreCase("kick")) {
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
-		playerAttack = ran.nextInt (25);
+		playerAttack = ran.nextInt (50);
 		
 	}
 				// 6. Subtract the player attack value from the dragon's health
@@ -85,14 +85,15 @@ JOptionPane.showMessageDialog(null, "player Heath: "+ playerHeath + "  Dragon He
 
 	static void playerLost() {
 		// 11. Tell the player that they have been defeated by the dragon and have no treasure
-
+		
+JOptionPane.showMessageDialog(null, "You have been killed by the dragon. You get no treasure and your family is sad. :(");
 
 		System.exit(0);   //This code ends the program
 	}
 
 	static void dragonLost() {
 		// 12. Tell the user that the dragon has been defeated and they get a ton of gold!
-
+JOptionPane.showMessageDialog(null,  "You won! You killed the dragon and took all his tresure!");
 		System.exit(0);   //This code ends the program
 	}
 
